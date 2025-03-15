@@ -161,14 +161,6 @@
     }
   </style>
 </head>
-<body>
-  <div class="content">
-    <h1>Услуги эвакуатора</h1>
-    <p>Быстрая и надежная помощь на дороге</p>
-    <p class="phone">Звоните: <a href="tel:+7 707 359 88 28" style="color: yellow; text-decoration: none;">+7 707 359 88 28</a></p>
-  </div>
-</body>
-</html>
 
 <html lang="ru">
 <head>
