@@ -169,3 +169,75 @@
   </div>
 </body>
 </html>
+
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реклама эвакуатора</title>
+  <style>
+    /* Общий стиль */
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('XXL_height.webp'); /* Путь к изображению */
+      background-size: cover; /* Масштабирование на весь экран */
+      background-position: center; /* Центрируем изображение */
+      background-attachment: fixed; /* Фон не прокручивается */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Контейнер с текстом */
+    .content {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5); /* Затемнение фона для читаемости */
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .phone {
+      font-size: 24px;
+      font-weight: bold;
+      color: yellow;
+    }
+
+    /* Мобильная версия */
+    @media (max-width: 600px) {
+      .content {
+        padding: 15px;
+      }
+
+      .phone {
+        font-size: 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Услуги эвакуатора</h1>
+    <p>Быстрая и надежная помощь на дороге</p>
+    <p class="phone">Звоните: <a href="tel:+1234567890" style="color: yellow; text-decoration: none;">+1 234 567 890</a></p>
+  </div>
+</body>
+</html>
+
+background-image: url('https://avatars.mds.yandex.net/get-altay/12550566/2a0000018ee167d17accf0ded1bb4f8f3d38/XXL_height.jpg');
+  background-size: cover; /* Масштабирует изображение так, чтобы оно покрывало весь экран */
+  background-position: center; /* Центрирует изображение */
+  background-attachment: fixed; /* Фон не прокручивается при прокрутке страницы */
+}
