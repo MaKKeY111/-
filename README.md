@@ -119,48 +119,10 @@
 </head>
 <body>
   <div class="phone-number">
-    <a href="tel:+7 707 359 88 28">+7 707 359 88 28</a>
+    <a href="tel:+7 705 131 13 38">+7 705 131 13 38</a>
   </div>
 </body>
 </html>
-
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Реклама эвакуатора</title>
-  <style>
-    /* Устанавливаем фоновое изображение */
-    body {
-      margin: 0;
-      height: 100vh;
-      background-image: url('XXL_height.webp https://avatars.mds.yandex.net/get-altay/12550566/2a0000018ee167d17accf0ded1bb4f8f3d38/XXL_height'); /* Укажи правильный путь, если файл в другой папке */
-      background-size: cover; /* Масштабирование на весь экран */
-      background-position: center; /* Центрируем изображение */
-      background-attachment: fixed; /* Фон не прокручивается */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      text-shadow: 2px 2px 5px black;
-      font-family: Arial, sans-serif;
-    }
-
-    /* Контейнер с текстом */
-    .content {
-      text-align: center;
-      background: rgba(0, 0, 0, 0.5); /* Затемнение фона для читаемости */
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .phone {
-      font-size: 24px;
-      font-weight: bold;
-      color: yellow;
-    }
-  </style>
-</head>
 
 <html lang="ru">
 <head>
@@ -223,10 +185,14 @@
   <div class="content">
     <h1>Услуги эвакуатора</h1>
     <p>Быстрая и надежная помощь на дороге</p>
-    <p class="phone">Звоните: <a href="tel:+7 707 359 88 28" style="color: yellow; text-decoration: none;">+7 707 359 88 28</a></p>
+    <p class="phone">Звоните: <a href="tel:+7 705 131 13 38" style="color: yellow; text-decoration: none;">+7 705 131 13 38</a></p>
   </div>
 </body>
 </html>
+
+
+
+
 
 <html lang="ru">
 <head>
