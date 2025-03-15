@@ -1,6 +1,6 @@
 # -
 Быстро не дорого
-<!DOCTYPE html>
+
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -103,3 +103,6 @@
 
 </body>
 </html>
+
+<img src="images/evacuator.jpg" alt="Эвакуатор" width="500">
+<a href="tel:+1234567890">+1 234 567 890</a>
