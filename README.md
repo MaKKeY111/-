@@ -238,7 +238,7 @@
     body {
       margin: 0;
       height: 100vh;
-      background-image: url('4yfa5jdv.png'); /* Используем первую фотографию как фоновое */
+      background-image: url('[4yfa5jdv.png](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img_fon/4yfa5jdv.png?raw=true)'); /* Используем первую фотографию как фоновое */
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -310,10 +310,17 @@
   <!-- Слайдер с фотографиями -->
   <div class="slider">
     <div class="slides">
-      <img src="img" alt="Эвакуатор с машиной 1">
-      <img src="img" alt="Эвакуатор с машиной 2">
-    <img src="img" alt="Эвакуатор с машиной 3">
-    
+      <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273887.jpg?raw=true)" alt="Эвакуатор с машиной 1">
+      <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273888.jpg?raw=true)" alt="Эвакуатор с машиной 2">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273889.jpg?raw=true)" alt="Эвакуатор с машиной 3">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273890.jpg?raw=true)" alt="Эвакуатор с машиной 4">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273891.jpg?raw=true)" alt="Эвакуатор с машиной 5">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273892.jpg?raw=true)" alt="Эвакуатор с машиной 6">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273893.jpg?raw=true)" alt="Эвакуатор с машиной 7">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273894.jpg?raw=true)" alt="Эвакуатор с машиной 8">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273895.jpg?raw=true)" alt="Эвакуатор с машиной 9">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273896.jpg?raw=true)" alt="Эвакуатор с машиной 10">
+    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273897.jpg?raw=true)" alt="Эвакуатор с машиной 11">
     </div>
 
     <!-- Кнопки слайдера -->
