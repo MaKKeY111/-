@@ -119,7 +119,7 @@
 </head>
 <body>
   <div class="phone-number">
-    <a href="tel:+1234567890">+7 707 359 88 28</a>
+    <a href="tel:+7 707 359 88 28">+7 707 359 88 28</a>
   </div>
 </body>
 </html>
