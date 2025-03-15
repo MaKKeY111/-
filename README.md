@@ -231,12 +231,12 @@
   <div class="content">
     <h1>Услуги эвакуатора</h1>
     <p>Быстрая и надежная помощь на дороге</p>
-    <p class="phone">Звоните: <a href="tel:+1234567890" style="color: yellow; text-decoration: none;">+1 234 567 890</a></p>
+    <p class="phone">Звоните: <a href="tel:+7 707 359 88 28" style="color: yellow; text-decoration: none;">+7 707 359 88 28</a></p>
   </div>
 </body>
 </html>
 
-background-image: url('https://avatars.mds.yandex.net/get-altay/12550566/2a0000018ee167d17accf0ded1bb4f8f3d38/XXL_height.jpg');
+background-image: url('XXL_height.jpg');
   background-size: cover; /* Масштабирует изображение так, чтобы оно покрывало весь экран */
   background-position: center; /* Центрирует изображение */
   background-attachment: fixed; /* Фон не прокручивается при прокрутке страницы */
