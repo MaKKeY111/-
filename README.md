@@ -276,17 +276,18 @@
   <!-- Слайдер с фотографиями -->
   <div class="slider">
     <div class="slides">
-      <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273887.jpg?raw=true)" alt="Эвакуатор с машиной 1">
-      <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273888.jpg?raw=true)" alt="Эвакуатор с машиной 2">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273889.jpg?raw=true)" alt="Эвакуатор с машиной 3">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273890.jpg?raw=true)" alt="Эвакуатор с машиной 4">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273891.jpg?raw=true)" alt="Эвакуатор с машиной 5">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273892.jpg?raw=true)" alt="Эвакуатор с машиной 6">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273893.jpg?raw=true)" alt="Эвакуатор с машиной 7">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273894.jpg?raw=true)" alt="Эвакуатор с машиной 8">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273895.jpg?raw=true)" alt="Эвакуатор с машиной 9">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273896.jpg?raw=true)" alt="Эвакуатор с машиной 10">
-    <img src="[img](https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273897.jpg?raw=true)" alt="Эвакуатор с машиной 11">
+        <!-- Слайды с изображениями -->
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273887.jpg?raw=true" alt="Фотография 1"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273888.jpg?raw=true" alt="Фотография 2"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273889.jpg?raw=true" alt="Фотография 3"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273890.jpg?raw=true" alt="Фотография 4"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273891.jpg?raw=true" alt="Фотография 5"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273892.jpg?raw=true" alt="Фотография 6"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273893.jpg?raw=true" alt="Фотография 7"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273894.jpg?raw=true" alt="Фотография 8"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273895.jpg?raw=true" alt="Фотография 9"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273896.jpg?raw=true" alt="Фотография 10"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273897.jpg?raw=true" alt="Фотография 11"></div>
     </div>
 
     <!-- Кнопки слайдера -->
@@ -321,3 +322,60 @@
 
 </body>
 </html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер изображений</title>
+    <style>
+        .slider {
+            position: relative;
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .slides {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .slide {
+            min-width: 100%;
+            transition: transform 0.5s ease;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .navigation-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .prev, .next {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Кнопки для переключения слайдов -->
+    <div class="navigation-buttons">
+        <button class="prev">‹</button>
+        <button class="next">›</button>
+    </div>
+</div>
+
+<script>
+    let currentIndex = 
