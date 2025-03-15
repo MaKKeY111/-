@@ -228,8 +228,123 @@
 </body>
 </html>
 
-background-image: url('XXL_height.webp.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-attachment: fixed; 
-}
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайт эвакуатора</title>
+  <style>
+    /* Фоновое изображение */
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('4yfa5jdv.png'); /* Используем первую фотографию как фоновое */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Контейнер для слайдера */
+    .slider {
+      width: 80%;
+      max-width: 900px;
+      margin: 50px auto;
+      position: relative;
+    }
+
+    .slides {
+      display: flex;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .slides img {
+      width: 100%;
+      height: auto;
+      transition: transform 1s ease;
+    }
+
+    /* Стили для кнопок слайдера */
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 24px;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+
+    /* Мобильная версия */
+    @media (max-width: 600px) {
+      .slider {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Контент страницы -->
+  <div class="content">
+    <h1>Эвакуатор - Быстрая помощь на дороге!</h1>
+    <p>Звоните нам в любой момент, и мы приедем.</p>
+  </div>
+
+  <!-- Слайдер с фотографиями -->
+  <div class="slider">
+    <div class="slides">
+      <img src="5382222689592273887.jpg" alt="Эвакуатор с машиной 1">
+      <img src="5382222689592273890.jpg" alt="Эвакуатор с машиной 2">
+    <img src="5382222689592273896.jpg" alt="Эвакуатор с машиной 3">
+    <img src="5382222689592273888.jpg" alt="Эвакуатор с машиной 4">
+    </div>
+
+    <!-- Кнопки слайдера -->
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <script>
+    // Слайдер
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slides img');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+
+    function showSlide(index) {
+      if (index >= slides.length) {
+        slideIndex = 0;
+      } else if (index < 0) {
+        slideIndex = slides.length - 1;
+      } else {
+        slideIndex = index;
+      }
+      const offset = -slideIndex * 100;
+      document.querySelector('.slides').style.transform = `translateX(${offset}%)`;
+    }
+
+    prevButton.addEventListener('click', () => showSlide(slideIndex - 1));
+    nextButton.addEventListener('click', () => showSlide(slideIndex + 1));
+
+    showSlide(slideIndex);
+  </script>
+
+</body>
+</html>
