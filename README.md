@@ -95,6 +95,8 @@
 
 </body>
 </html>
+
+
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -124,3 +126,34 @@
 </body>
 </html>
 
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт</title>
+  <style>
+    /* Устанавливаем фоновое изображение */
+    body {
+      margin: 0;
+      height: 100%;
+      background-image: url('path_to_your_image.jpg');
+      background-size: cover; /* Растягивает изображение на весь экран */
+      background-position: center; /* Центрирует изображение */
+      background-attachment: fixed; /* Закрепляет фон при прокрутке */
+    }
+
+    /* Содержимое страницы */
+    .content {
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Реклама эвакуатора</h1>
+    <p>Позвоните нам по номеру: <a href="tel:+1234567890" style="color: yellow;">+1 234 567 890</a></p>
+  </div>
+</body>
+</html>
