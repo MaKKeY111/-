@@ -87,22 +87,40 @@
     </div>
 </section>
 
-<section>
-    <h2>Контакты</h2>
-    <form class="contact-form">
-        <input type="text" placeholder="Ваше имя" required>
-        <input type="tel" placeholder="Ваш телефон" required>
-        <textarea placeholder="Сообщение" rows="4" required></textarea>
-        <button type="submit">Отправить</button>
-    </form>
-</section>
+
 
 <footer>
-    <p>&copy; 2025 Эвакуатор. Все права защищены.</p>
+    <p>&copy;  Все права защищены.</p>
 </footer>
 
 </body>
 </html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт</title>
+  <style>
+    /* Стиль для центрирования содержимого */
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    .phone-number {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone-number">
+    <a href="tel:+1234567890">+7 707 359 88 28</a>
+  </div>
+</body>
+</html>
 
-<img src="images/evacuator.jpg" alt="Эвакуатор" width="500">
-<a href="tel:+1234567890">+1 234 567 890</a>
