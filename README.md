@@ -482,3 +482,169 @@
         font-size: 20px;
     }
 }
+
+/* Общие стили для всего сайта */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрируем контент по вертикали */
+    align-items: center; /* Центрируем контент по горизонтали */
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px; /* Сделаем отступ сверху */
+}
+
+/* Контейнер для слайдера */
+.slider {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    transition: transform 1s ease;
+}
+
+/* Стили для кнопок слайдера */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Мобильная версия (для экранов с шириной до 768px) */
+@media (max-width: 768px) {
+    header {
+        font-size: 20px;
+        padding: 15px;
+        margin-top: 20px; /* Уменьшаем отступ сверху */
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 80%;
+        margin-bottom: 20px;
+        box-shadow: none; /* Убираем тень для лучшего отображения */
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 10px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+}
+
+/* Для устройств с очень маленьким экраном (до 480px) */
+@media (max-width: 480px) {
+    header {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .service {
+        width: 90%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .phone {
+        font-size: 18px;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+}
+
+/* Для устройств с шириной экрана от 480px до 767px (планшеты) */
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        font-size: 22px;
+        padding: 15px;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .service {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: 10px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+}
