@@ -228,8 +228,8 @@
 </body>
 </html>
 
-background-image: url('XXL_height.jpg');
-  background-size: cover; /* Масштабирует изображение так, чтобы оно покрывало весь экран */
-  background-position: center; /* Центрирует изображение */
-  background-attachment: fixed; /* Фон не прокручивается при прокрутке страницы */
+background-image: url('XXL_height.webp.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
 }
