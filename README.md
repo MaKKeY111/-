@@ -105,4 +105,4 @@
 </html>
 
 <img src="images/evacuator.jpg" alt="Эвакуатор" width="500">
-<a href="tel:+1234567890">+1 234 567 890</a>
+<a href="tel:+1234567890">+7 707 359 88 28</a>
