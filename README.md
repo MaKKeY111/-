@@ -330,8 +330,8 @@
     <style>
         .slider {
             position: relative;
-            width: 100%;
-            max-width: 1000px;
+            width: 50%;
+            max-width: 500px;
             margin: auto;
         }
 
