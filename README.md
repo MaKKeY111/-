@@ -7,8 +7,6 @@
 
 
 
-
-
 Быстро не дорого
 
 <html lang="ru">
@@ -382,3 +380,103 @@
 
 <script>
     let currentIndex = 
+/* Мобильная версия (для экранов с шириной до 768px) */
+@media (max-width: 768px) {
+    header {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 80%;
+        margin-bottom: 20px;
+        box-shadow: none; /* Убираем тень для лучшего отображения */
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 10px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+}
+
+/* Для устройств с очень маленьким экраном (до 480px) */
+@media (max-width: 480px) {
+    header {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .service {
+        width: 90%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .phone {
+        font-size: 18px;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+}
+
+/* Для устройств с шириной экрана от 480px до 767px (планшеты) */
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        font-size: 22px;
+        padding: 15px;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .service {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: 10px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+}
