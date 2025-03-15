@@ -380,11 +380,11 @@
 
 <script>
     let currentIndex = 
-/* Мобильная версия (для экранов с шириной до 768px) */
-@media (max-width: 768px) {
+/* Мобильная версия (для экранов с шириной до 724px) */
+@media (max-width: 724px) {
     header {
-        font-size: 20px;
-        padding: 15px;
+        font-size: 15px;
+        padding: 10px;
     }
 
     .services {
